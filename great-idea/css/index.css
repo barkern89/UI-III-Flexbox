@@ -121,6 +121,7 @@ header nav a {
   font-size: 14px;
   color: gray;
   text-decoration: none;
+  font-weight: bolder;
 }
 
 header nav a:hover {
@@ -246,6 +247,7 @@ footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+
 }
 
 .content-text {
@@ -268,7 +270,7 @@ footer {
 .copyright {
   display: flex;
   justify-content: center;
-  font-weight: bold;
+  font-weight: bolder;
   padding-bottom: 25px;
 }
 
@@ -281,7 +283,7 @@ footer {
 .services-header-paragraph {
   padding-top: 25px;
   padding-bottom: 25px;
-  font-weight: bold;
+  font-weight: normal;
 }
 
 .bottom-content p {
@@ -291,7 +293,29 @@ footer {
 .bottom-content ul {
   margin-top: 25px;
   line-height: 2;
-  font-weight: bold;
+  font-weight: bolder;
   list-style-type: square;
   margin-left: 20px;
+}
+.services-header-paragraph h2 {
+  font-size: 28px;
+}
+
+.services-header-img {
+  padding-top: 25px;
+}
+
+.content-container .content-text {
+  font-weight: normal;
+}
+
+.content-container h4 {
+  margin: 0
+}
+
+button {
+  border-radius: 5px;
+  background-color: white;
+  border: 1px solid black;
+  width: 200px;
 }
