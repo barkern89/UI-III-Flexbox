@@ -1,66 +1,89 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
+/* cta */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+
+.contact p {
+  margin: 20px 0;
 }
 
-/* Set every element's box-sizing to border-box */
-* {
-    box-sizing: border-box;
+footer {
+  margin: 32px 0;
+  text-align: center;
+  font-size: 14px;
 }
 
-html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+.main-content-services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+.content-text {
+  display: flex;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.content-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 350px;
+  height: 250px;
+  background-color: whitesmoke;
+  border: 1px solid black;
+  margin: 30px;
+  padding: 20px;
+  box-sizing: border-box;
+  
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  font-weight: bolder;
+  padding-bottom: 25px;
+}
+
+.services-info-img {
+  padding: 20px;
+  padding-top: 0;
+  padding-right: 0;
+}
+
+.services-header-paragraph {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-weight: normal;
+}
+
+.bottom-content p {
+  margin-right: 40px;
+}
+
+.bottom-content ul {
+  margin-top: 25px;
+  line-height: 2;
+  font-weight: bolder;
+  list-style-type: square;
+  margin-left: 20px;
+}
+.services-header-paragraph h2 {
+  font-size: 28px;
+}
+
+.services-header-img {
+  padding-top: 25px;
+}
+
+.content-container .content-text {
+  font-weight: normal;
+}
+
+.content-container h4 {
+  margin: 0
+}
+
+button {
+  border-radius: 5px;
+  background-color: white;
+  border: 1px solid black;
+  width: 200px;
+}
